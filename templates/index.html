@@ -4,33 +4,31 @@
 
 <!-------------------------------------------------------------------------------------------------------------------->
 
-<div id="wrapper">
+<div id="wrapper" class="active">
     <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand"><a href="#">Proman</a></li>
-            <li><a href="#">First menu item</a></li>
-            <li><a href="#">Second menu item</a></li>
-            <li><a href="#">Third menu item</a></li>
-            <li><a href="#">Fourth menu item</a></li>
-            <li><a href="#">Fifth menu item</a></li>
-            <li><a href="#">Sixth menu item</a></li>
-            <li><a href="#">Seventh menu item</a></li>
+        <ul id="sidebar_menu" class="sidebar-nav">
+            <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="app-color glyphicon glyphicon-align-justify"></span></a></li>
         </ul>
-    </div>
-</div>
+        <ul class="sidebar-nav" id="sidebar">
+            <li id="first-link"><a>New Container<span class="sub_icon glyphicon glyphicon-plus-sign"></span></a></li>
+            <li id="second-link"><a>New Board<span class="sub_icon glyphicon glyphicon-plus-sign"></span></a></li>
+            <li id="third-link"><a>New Paper<span class="sub_icon glyphicon glyphicon-plus-sign"></span></a></li>
+        </ul>
+      </div>
 
-<!-------------------------------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------------------------------------------------------------->
 
-<div class="page-content-wrapper">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Simple sidebar</h1>
-                <p>Csácsumicsá</p>
-                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+    <div id="page-content-wrapper">
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="well lead">Click on the Menu to Toggle Sidebar . Hope you enjoy it!</p>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 
 <!-------------------------------------------------------------------------------------------------------------------->
