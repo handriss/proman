@@ -1,3 +1,4 @@
-h1{
-    background: yellow;
-}
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
