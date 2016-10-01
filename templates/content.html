@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-sm-12">
         <h1>Tájtül</h1>
         <div class="tile amarelo"></div>
         <div class="tile azul"></div>
@@ -20,6 +20,14 @@
         <div class="tile tileLargo verde"></div>
         <div class="tile azul"></div>
         <div class="tile verde"> </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="div1" class="tile azul" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div2" class="tile azul" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <img id="drag1" src="static/img/goldenrectangle.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+    </div>
 </div>
 
 
